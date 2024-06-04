@@ -25,12 +25,12 @@ export const prerender = true
 export const ssr = false
 ```
 
+### Backend scaffolding
 ```bash
 npm install
 npm install @tauri-apps/api
 ```
 
-### Backend scaffolding
 ```bash
 cargo tauri init
 ```
