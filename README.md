@@ -91,9 +91,7 @@ export default {
 ```bash
 npm install -D prettier prettier-plugin-tailwindcss
 ```
-- In `prettier.config.js` :
+- In `prettier.config.js` (new) :
 ```js
-module.exports = {
-  plugins: ['prettier-plugin-tailwindcss'],
-}
+export const plugins = ['prettier-plugin-tailwindcss'];
 ```
